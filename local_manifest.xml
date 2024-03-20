@@ -12,6 +12,17 @@
   <remote name="pixel-devices-blobs"
           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
           revision="thirteen" />
+
+  <remote name="derpfest-13"
+          fetch="https://github.com/Zaka531"
+          revision="derpfest-13" />
+
+  <remote name="miui-camera"
+          fetch="https://gitlab.com/ThankYouMario"
+          revision="uvite-sm6225" />
+
+  <!-- Device Tree -->
+     <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="derpfest-13" />
   
   <!-- Vendor Tree -->
      <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="pixel-devices-blobs" />
@@ -23,4 +34,7 @@
 
   <!-- Hardware -->
      <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pixel" />
+
+  <!-- MIUI Camera -->
+     <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="miui-camera" />
 </manifest>
