@@ -30,9 +30,4 @@
 
   <!-- MIUI Camera -->
      <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="miui-camera" />
-
-  <!-- Remove repos -->
-     <remove-project name="android_hardware_lineage_interfaces" />
-     <remove-project name="android_packages_apps_Trebuchet" />
-     <remove-project name="android_packages_overlays_Lineage" />
 </manifest>
