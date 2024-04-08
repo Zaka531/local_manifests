@@ -21,6 +21,10 @@
           fetch="https://gitlab.com/ThankYouMario"
           revision="uvite-sm6225" />
 
+  <remote name="clang"
+          fetch="https://gitlab.com/Amritorock"
+          revision="master" />
+
   <!-- Device Tree -->
      <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="afterlife-13" />
   
@@ -37,4 +41,7 @@
 
   <!-- MIUI Camera -->
      <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="miui-camera" />
+
+  <!-- Clang -->
+     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" />
 </manifest>
